@@ -6,7 +6,6 @@ Pod::Spec.new do |spec|
   spec.homepage     = 'https://github.com/bormog/gamarjoba'
   spec.license      = { :type => 'MIT', :file => 'LICENSE' }
   spec.author       = { 'bromog' => 'example@example.com' }
-  spec.source       = { :git => 'https://github.com/bormog/gamarjoba.git', :tag => spec.version.to_s }
-  spec.source_files = 'gamarjoba/*.{sh}'
-  spec.platform     = :ios, '10.0'  # Укажите целевую платформу
+  spec.source       = { :git => 'https://github.com/bormog/gamarjoba.git', :tag => '0.1.0' }
+  spec.source_files = 'main.sh'
 end
